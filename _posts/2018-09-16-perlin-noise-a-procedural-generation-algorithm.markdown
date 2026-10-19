@@ -77,7 +77,7 @@ An implementation to get the first vector would look like this:
 
 
 ```javascript
-// Suppose x, y and z are the float input
+// Suppose x and y are the float inputs
 const X = Math.floor(x) & 255;	// Used later
 const Y = Math.floor(y) & 255;	// Used later
 const xf = x-Math.floor(x);
